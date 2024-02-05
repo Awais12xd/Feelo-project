@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* top bar */
+.topbar{
+    background-color: black;
+}
+.topbar:hover{
+      background-color: rgb(23, 23, 23);
+      cursor: pointer;
+}
+/* header  */
+.logo img{
+    object-fit: cover;
+}
+.search a{
+    font-weight: 400;
+}
+.search a:hover{
+    transform: scale(1.03);
+    transition: 0.09s ease-in-out;
+}
+/* hero */
+.hero{
+    min-height: 70vh;
+    height: auto;
+    background:rgb(0,0,0,0.4) url(hero3.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+}
+
+.btn-all:hover{
+    transform: scale(1.03);
+    transition: 0.09s ease-in-out;
+}
+/* deal section */
+.deal-btn .deal-btn1{
+    border:2px solid rgb(142, 142, 142);
+    background-color: white;
+}
+.deal-btn .deal-btn1:hover{
+       border: 2px solid rgb(0, 0, 0);
+       transition: 0.01s ease-in-out;
+}
+.deal-btn .deal-btn2:hover{
+    transform: scale(1.02);
+    transition: 0.01s ease-in-out;
+}
+.deal-last-btns .deal-share{
+    text-decoration: none;
+}
+.deal-last-btns .deal-share:hover{
+     text-decoration: underline;
+}
+.deal-last-btns .deal-view{
+    text-decoration:none;
+}
+.deal-last-btns .deal-view:hover{
+     text-decoration: underline;
+}
+/* why section */
+.why{
+    min-height: 50vh;
+    height: auto;
+}
+/* offer section */
+.offers:hover .offer-img img{
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+}
+.offers:hover{
+    cursor: pointer;
+}
+.offers:hover .cato-arrow{
+    margin-left:7px;
+    transition: 0.2s ease-in-out ;
+}
+.offers:hover h6{
+    text-decoration: underline;
+}
+/* footer */
+.footer-list1 a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+.footer-list1 a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
